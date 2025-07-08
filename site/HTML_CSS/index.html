@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accueil|CLN</title>
+
+    <!-- Style css -->
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Bootstrap Icons (IMPORTANT pour les icônes) -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <!-- CSS Bootstrap -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+
+     <!-- Inclure Boxicons et Bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+<link rel="stylesheet" href="./style.css">
+
+<!-- Favicon -->
+<link rel="icon" href="./images/logo.png" type="image/x-icon">
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-lg">
+  <div class="container-fluid">
+     <a class="navbar-brand fs-3 text-info fw-bold d-flex align-items-center gap-2" href="#"><img src="./images/logo.png" alt="Logo CLN" style="height: 40px; width: auto;">CLN</a>
+    
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" 
+      aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <!-- Accueil -->
+        <li class="nav-item">
+          <a class="nav-link active text-white" aria-current="page" href="index.html">
+            <i class='bx bx-home-alt'></i> Accueil
+          </a>
+        </li>
+
+        <!-- Dropdown Nos Services -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-white" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <i class='bx bx-cog'></i> Nos Services
+          </a>
+          <ul class="dropdown-menu dropdown-menu-dark">
+            <li><a class="dropdown-item" href="chauffeur_p.html">Chauffeur personnel</a></li>
+            <li><a class="dropdown-item" href="chauffeur_c.html">Chauffeur en commun</a></li>
+            <li><a class="dropdown-item" href="seregraphie.html">Sérigraphie</a></li>
+            <li><a class="dropdown-item" href="peinture.html">Peinture</a></li>
+            <li><a class="dropdown-item" href="infographie.html">Infographie</a></li>
+            <li><a class="dropdown-item" href="informatique.html">Informatique</a></li>
+            <li><a class="dropdown-item" href="dessin_architecte.html">Dessin & Architecture</a></li>
+            <li><a class="dropdown-item" href="electricite.html">Electricité</a></li>
+          </ul>
+        </li>
+
+        <!-- A propos -->
+        <li class="nav-item">
+          <a class="nav-link text-white" href="about.html"><i class='bx bx-info-circle'></i> À propos</a>
+        </li>
+
+        <!-- Contact -->
+        <li class="nav-item">
+          <a class="nav-link text-white" href="contact.html"><i class='bx bx-phone'></i> Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<!-- Carousel -->
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel" style="margin-top: 80px;">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+      aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+      aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+      aria-label="Slide 3"></button>
+  </div>
+
+  <div class="carousel-inner">
+
+    <!-- Slide 1 -->
+    <div class="carousel-item active">
+      <img src="./images/chauffeur_P.jpg" class="d-block w-100" alt="chauffeur" style="max-height: 600px; object-fit: cover;">
+      <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-3">
+        <h5 class="text-info fw-bold">Optez pour nos chauffeurs</h5>
+        <p class="text-white">Pour plus de sécurité durant le processus de transport</p>
+      </div>
+    </div>
+
+    <!-- Slide 2 -->
+    <div class="carousel-item">
+      <img src="./images/peintre.jpg" class="d-block w-100" alt="peintre" style="max-height: 600px; object-fit: cover;">
+      <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-3">
+        <h5 class="text-warning fw-bold">Nos Services de Peinture</h5>
+        <p class="text-white">Vous ne serez pas déçu de nous avoir fait confiance.</p>
+      </div>
+    </div>
+
+    <!-- Slide 3 -->
+    <div class="carousel-item">
+      <img src="./images/informatique.jpg" class="d-block w-100" alt="informatique" style="max-height: 600px; object-fit: cover;">
+      <div class="carousel-caption d-none d-md-block bg-dark bg-opacity-50 rounded p-3">
+        <h5 class="text-light fw-bold">L'informatique, c'est maintenant</h5>
+        <p class="text-white">Faites confiance à votre instinct, optez pour l'informatique. Vous ne le regretterez pas.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Contrôles -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon bg-dark rounded-circle p-2" aria-hidden="true"></span>
+    <span class="visually-hidden">Précédent</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon bg-dark rounded-circle p-2" aria-hidden="true"></span>
+    <span class="visually-hidden">Suivant</span>
+  </button>
+</div>
+
+<!-- Ligne de séparation -->
+<hr class="my-5 border-top border-3 ">
+
+<!-- Section Services -->
+<section class="services py-5">
+  <div class="container">
+    <h2 class="text-center mb-5 text-primary fw-bold display-5">Nos Services</h2>
+    <div class="row g-4">
+
+      <!-- Service 1 -->
+      <div class="col-md-4">
+        <div class="card service-card h-100 shadow border-0">
+          <img src="./images/chauffeur-1.jpg" class="card-img-top" alt="Chauffeur Personnel" style="height: 220px; object-fit: cover;">
+          <div class="card-body">
+            <h5 class="card-title text-primary">Chauffeur Personnel</h5>
+            <p class="card-text">Profitez de la sécurité et du confort avec nos chauffeurs personnels.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Service 2 -->
+      <div class="col-md-4">
+        <div class="card service-card h-100 shadow border-0">
+          <img src="./images/serigraphie.jpg" class="card-img-top" alt="Sérigraphie" style="height: 220px; object-fit: cover;">
+          <div class="card-body">
+            <h5 class="card-title text-primary">Sérigraphie</h5>
+            <p class="card-text">Personnalisez vos vêtements et accessoires avec notre service de sérigraphie.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Service 3 -->
+      <div class="col-md-4">
+        <div class="card service-card h-100 shadow border-0">
+          <img src="./images/peinture-1.jpg" class="card-img-top" alt="Peinture" style="height: 220px; object-fit: cover;">
+          <div class="card-body">
+            <h5 class="card-title text-primary">Peinture</h5>
+            <p class="card-text">Transformez vos espaces avec notre service de peinture professionnelle.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Service 4 -->
+      <div class="col-md-4">
+        <div class="card service-card h-100 shadow border-0">
+          <img src="./images/2984036.jpg" class="card-img-top" alt="Infographie" style="height: 220px; object-fit: cover;">
+          <div class="card-body">
+            <h5 class="card-title text-primary">Infographie</h5>
+            <p class="card-text">Créez des designs uniques et percutants avec notre service d'infographie.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Service 5 -->
+      <div class="col-md-4">
+        <div class="card service-card h-100 shadow border-0">
+          <img src="./images/informaticien.jpg" class="card-img-top" alt="Informatique" style="height: 220px; object-fit: cover;">
+          <div class="card-body">
+            <h5 class="card-title text-primary">Informatique</h5>
+            <p class="card-text">Bénéficiez de nos services informatiques pour tous vos besoins technologiques.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Service 6 -->
+      <div class="col-md-4">
+        <div class="card service-card h-100 shadow border-0">
+          <img src="./images/architecture_dessin.jpg" class="card-img-top" alt="Dessin & Architecture" style="height: 220px; object-fit: cover;">
+          <div class="card-body">
+            <h5 class="card-title text-primary">Dessin & Architecture</h5>
+            <p class="card-text">Réalisez vos projets architecturaux avec notre expertise en dessin et architecture.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Service 7 -->
+      <div class="col-md-4">
+        <div class="card service-card h-100 shadow border-0">
+          <img src="./images/electricite.jpg" class="card-img-top" alt="Electricité" style="height: 220px; object-fit: cover;">
+          <div class="card-body">
+            <h5 class="card-title text-primary">Électricité</h5>
+            <p class="card-text">Assurez la sécurité de vos installations électriques avec nos services professionnels.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<hr>
+
+<!-- google maps -->
+<section class="map-section py-5 bg-light">
+  <!-- Titre centré et contenu limité -->
+  <div class="container">
+    <h2 class="text-center text-primary fw-bold">Nous Trouver</h2>
+    <hr class="my-4 border-primary border-2 w-25 mx-auto">
+  </div>
+
+  <!-- Carte Google Maps pleine largeur -->
+  <div class="w-100">
+    <iframe 
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3979.2741160834935!2d15.252034174070433!3d-4.166425945555344!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1a6bcd6cd2e3ba17%3A0xc996c6cd431cd86e!2sMarch%C3%A9%20Massengo!5e0!3m2!1sen!2scg!4v1750476935147!5m2!1sen!2scg" 
+      width="100%" 
+      height="500" 
+      style="border:0;" 
+      allowfullscreen="" 
+      loading="lazy" 
+      referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </div>
+</section>
+
+
+
+
+
+<!-- footer -->
+<!-- FOOTER -->
+<footer class="bg-dark text-white text-center py-4">
+  <div class="container">
+    <p class="mb-3 fw-bold">&copy; 2025 <span class="text-info">CLN</span>. Tous droits réservés.</p>
+
+    <!-- Contacts dynamiques avec icônes -->
+    <div class="d-flex flex-column flex-md-row justify-content-center align-items-center gap-3">
+
+      <!-- Appel téléphonique -->
+      <a href="tel:+242066506973" class="text-white text-decoration-none d-flex align-items-center">
+        <i class="bi bi-telephone-fill text-info me-2 fs-5"></i>
+        <span class="fw-medium">Appelez-nous : 066506973</span>
+      </a>
+
+      <!-- WhatsApp -->
+      <a href="https://wa.me/242066506973" target="_blank" class="text-white text-decoration-none d-flex align-items-center">
+       <i class="bi bi-whatsapp text-success me-2 fs-5"></i>
+        <span class="fw-medium">WhatsApp</span>
+      </a>
+
+      <!-- Adresse -->
+      <a href="https://goo.gl/maps/8z5Z5Z5Z5Z5Z5Z5Z5" target="_blank" class="text-white text-decoration-none d-flex align-items-center">
+        <i class="bi bi-geo-alt-fill text-warning me-2 fs-5"></i>
+        <span class="fw-medium">123 Rue je ne sais pas, Brazzaville</span>
+      </a>
+
+    </div>
+  </div>
+</footer>
+<!-- Bootstrap Icons -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.js"></script>
+
+
+
+
+
+<!-- JS -->
+ <script src="index.js"></script>
+ <script src="./profile/services.js"></script>
+
+
+<!-- Js Bootstrap -->
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    
+</body>
+</html>
